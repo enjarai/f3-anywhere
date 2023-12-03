@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "f3_anywhere",
+	"version": "${version}",
+	"name": "F3 Anywhere",
+	"description": "A very simple mod to let you use F3+? keybinds anywhere, including in menus.",
+	"authors": [
+		"enjarai"
+	],
+	"contact": {
+		"homepage": "https://enjarai.dev/",
+		"sources": "https://github.com/enjarai/f3-anywhere",
+		"issues": "https://github.com/enjarai/f3-anywhere/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/f3_anywhere/icon.png",
+	"environment": "client",
+	"entrypoints": {
+	},
+	"mixins": [
+		"f3_anywhere.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"java": ">=17"
+	}
+}
